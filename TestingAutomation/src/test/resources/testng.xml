@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "Wiki Main Page Tests">
+
+<test name = "SSBU Character Tests" parallel = "methods" thread-count = "2">
+	<classes>
+		<class name = "com.revature.charactertesting.CharacterSearchTest"></class>
+		<class name = "com.revature.charactertesting.CharacterSearchFirefoxTest"></class>
+	</classes>
+</test>
+
+<test name = "Cucumber Tests">
+	<classes>
+		<class name = "com.revature.behaviortests.TestRunner"></class>
+	</classes>
+</test>
+
+</suite>

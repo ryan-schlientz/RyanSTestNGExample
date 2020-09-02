@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wiki Main Page Tests" duration-ms="11960" started-at="2020-09-02T16:14:09Z" finished-at="2020-09-02T16:14:21Z">
+    <groups>
+    </groups>
+    <test name="SSBU Character Tests" duration-ms="11960" started-at="2020-09-02T16:14:09Z" finished-at="2020-09-02T16:14:21Z">
+      <class name="com.revature.charactertesting.CharacterSearchTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="before" is-config="true" duration-ms="1173" started-at="2020-09-02T12:14:09Z" finished-at="2020-09-02T12:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="characterExists" duration-ms="1519" started-at="2020-09-02T12:14:10Z" data-provider="characters" finished-at="2020-09-02T12:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="before" is-config="true" duration-ms="271" started-at="2020-09-02T12:14:12Z" finished-at="2020-09-02T12:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="characterExists" duration-ms="755" started-at="2020-09-02T12:14:12Z" data-provider="characters" finished-at="2020-09-02T12:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luigi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Luigi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="before" is-config="true" duration-ms="201" started-at="2020-09-02T12:14:13Z" finished-at="2020-09-02T12:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="characterExists" duration-ms="811" started-at="2020-09-02T12:14:13Z" data-provider="characters" finished-at="2020-09-02T12:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kirby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kirby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="before" is-config="true" duration-ms="266" started-at="2020-09-02T12:14:14Z" finished-at="2020-09-02T12:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="characterExists" duration-ms="789" started-at="2020-09-02T12:14:14Z" data-provider="characters" finished-at="2020-09-02T12:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganondorf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+      </class> <!-- com.revature.charactertesting.CharacterSearchTest -->
+      <class name="com.revature.charactertesting.CharacterSearchFirefoxTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="8277" started-at="2020-09-02T12:13:57Z" finished-at="2020-09-02T12:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="setUp" is-config="true" duration-ms="3583" started-at="2020-09-02T12:14:05Z" finished-at="2020-09-02T12:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="before" is-config="true" duration-ms="618" started-at="2020-09-02T12:14:15Z" finished-at="2020-09-02T12:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="characterExists" duration-ms="1148" started-at="2020-09-02T12:14:15Z" data-provider="characters" finished-at="2020-09-02T12:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="before" is-config="true" duration-ms="554" started-at="2020-09-02T12:14:17Z" finished-at="2020-09-02T12:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="characterExists" duration-ms="1090" started-at="2020-09-02T12:14:17Z" data-provider="characters" finished-at="2020-09-02T12:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luigi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Luigi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="before" is-config="true" duration-ms="288" started-at="2020-09-02T12:14:18Z" finished-at="2020-09-02T12:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="characterExists" duration-ms="1085" started-at="2020-09-02T12:14:19Z" data-provider="characters" finished-at="2020-09-02T12:14:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kirby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kirby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="before" is-config="true" duration-ms="242" started-at="2020-09-02T12:14:20Z" finished-at="2020-09-02T12:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="characterExists" duration-ms="1115" started-at="2020-09-02T12:14:20Z" data-provider="characters" finished-at="2020-09-02T12:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganondorf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.revature.charactertesting.CharacterSearchFirefoxTest@4cc0edeb]" name="tearDown" is-config="true" duration-ms="1186" started-at="2020-09-02T12:14:21Z" finished-at="2020-09-02T12:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="810" started-at="2020-09-02T12:14:22Z" finished-at="2020-09-02T12:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.revature.charactertesting.CharacterSearchFirefoxTest -->
+    </test> <!-- SSBU Character Tests -->
+  </suite> <!-- Wiki Main Page Tests -->
+</testng-results>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wiki Main Page Tests]">
+  <test thread-count="2" name="SSBU Character Tests" parallel="methods">
+    <classes>
+      <class name="com.revature.charactertesting.CharacterSearchTest"/>
+      <class name="com.revature.charactertesting.CharacterSearchFirefoxTest"/>
+    </classes>
+  </test> <!-- SSBU Character Tests -->
+  <test name="Cucumber Tests">
+    <classes>
+      <class name="com.revature.behaviortests.TestRunner"/>
+    </classes>
+  </test> <!-- Cucumber Tests -->
+  <test name="Cucumber Tests(failed)">
+    <classes>
+      <class name="com.revature.charactertesting.CharacterSearchFirefoxTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="before"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.revature.charactertesting.CharacterSearchFirefoxTest -->
+      <class name="com.revature.behaviortests.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDown"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.revature.behaviortests.TestRunner -->
+      <class name="com.revature.charactertesting.CharacterSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="before"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.revature.charactertesting.CharacterSearchTest -->
+    </classes>
+  </test> <!-- Cucumber Tests(failed) -->
+</suite> <!-- Failed suite [Wiki Main Page Tests] -->
